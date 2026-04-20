@@ -33,11 +33,13 @@ jobs:
       - name: Build
         run: npx tsc
 
-      - name: Copy static assets
+      - name: Prepare deployment folder
         run: |
-          cp index.html dist/
-          cp styles.css dist/
-          cp -r assets dist/
+          mkdir -p deploy
+          cp index.html deploy/
+          cp styles.css deploy/
+          cp -r assets deploy/
+          cp -r dist deploy/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -47,7 +49,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
+          path: './deploy'
 
   deploy:
     environment:
