@@ -33,6 +33,12 @@ jobs:
       - name: Build
         run: npx tsc
 
+      - name: Copy static assets
+        run: |
+          cp index.html dist/
+          cp styles.css dist/
+          cp -r assets dist/
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
