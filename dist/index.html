@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory Game (TS)</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="game-container" aria-label="Memory Game">
+      <header class="topbar">
+        <div class="progress-wrap" aria-label="Progress">
+          <div class="progress-header">
+            <span id="progressText"></span>
+          </div>
+          <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+            <div id="progressBar" class="progress-bar"></div>
+          </div>
+        </div>
+      </header>
+      <section id="grid" class="grid" aria-label="Cards Grid"></section>
+    </section>
+  </main>
+
+  <script type="module" src="./dist/main.js"></script>
+</body>
+</html>
