@@ -9,8 +9,8 @@ Check out the live deployment here: [Dummy Deployment Link](https://dummy-deploy
 ## 📋 Features
 
 - **Dynamic Gameplay**: Experience fast-paced action with multiple levels and challenges.
-- **Audio Integration**: Enjoy immersive sound effects and background music.
 - **Responsive Design**: Optimized for desktop and mobile devices.
+- **Audio Integration**: Enjoy immersive sound effects and background music.
 - **TypeScript Powered**: Built with modern TypeScript for better code quality and maintainability.
 - **Custom Assets**: Includes custom images and audio files for a unique experience.
 
