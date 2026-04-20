@@ -4,7 +4,7 @@ This is a Simple TypeScript-based game built with ES6 features, featuring stunni
 
 ## 🚀 Live Demo
 
-Check out the live deployment here: [Dummy Deployment Link](https://dummy-deployment-link.com)
+Check out the live deployment here: [Memory Game](https://mohamedabdel-kawy.github.io/Simple-Memory-Game/)
 
 ## 📋 Features
 
